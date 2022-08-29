@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+
+    height: 100%;
+}
+body{
+    color: white;
+    background-image: url(fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background: linear-gradient(180deg, rgb(54, 77, 204) 0%, rgba(6,11,34,1) 100%);*/
+}
+.perfil{
+    text-align: center;
+}
+.avatar{
+   margin-top: 20px;
+    width: 100px;
+    border-radius: 50px;
+    border: 3px solid white;
+    box-shadow:0 0 20px white ;
+}
+h1{
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+h2{
+    font-size: 16px;
+}
+.midias img{
+    width: 50px;
+}
+.midias{
+    list-style: none;
+}
+.midias li{
+    margin: 10px 20px;
+}
+
+.midias li a{
+    background-color: white;
+    padding: 15px 20px;
+    display: block;
+    border-radius: 15px;
+    text-decoration: none;
+    color:#364dcc;
+    font-weight: bold;
+}
+
