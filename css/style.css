@@ -1,76 +1,85 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     color: white;
-    background: rgb(24,24,24);
-    background: linear-gradient(200deg, rgba(24,24,24,1) 0%, rgba(59,66,105,1) 86%);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
 
 }
-.perfil{
+
+.perfil {
     background-image: url(fundo.png);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     padding-bottom: 10px;
 }
-.avatar{
+
+.avatar {
     margin-top: 20px;
     width: 100px;
     border-radius: 50px;
     border: 3px solid white;
-    box-shadow:0 0 20px white ;
+    box-shadow: 0 0 20px white;
 }
-h1{
+
+h1 {
     font-weight: 100;
     font-size: 24px;
     margin-bottom: 2px;
 }
-h2{
+
+h2 {
     font-size: 16px;
 }
-h3{
-    color: #ffffff;
+
+h3 {
+    color: #000000;
     text-align: center;
     padding: 10px;
     margin: 10px;
-    background: rgb(24,24,24);
-    background: linear-gradient(354deg, rgba(24,24,24,1) 0%, rgba(9,121,110,1) 100%);
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    border-color: #000000;
+    border-width: 3px;
+    border-style: inset;
     border-radius: 20px;
 }
-.titulos{
+
+.titulos {
     margin-left: 10px;
 }
-.midias img{
+
+.midias img {
     width: 50px;
 }
-.midias{
+
+.midias {
     list-style: none;
 
 }
-.midias li{
+
+.midias li {
     margin: 10px 20px;
     align-items: center;
 }
 
-.midias li a{
-    background: rgb(9,187,164);
-    background: linear-gradient(90deg, rgba(9,187,164,1) 0%, rgba(9,9,121,1) 100%);
+.midias li a {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
     padding: 15px 20px;
     display: block;
     border-radius: 15px;
     text-decoration: none;
-    color:#000000;
+    color: #000000;
     font-weight: bold;
-    
+
 }
 
-.footer{
+.footer {
     background-color: #000000;
     text-align: center;
 }
-
-
-
