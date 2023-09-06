@@ -62,7 +62,6 @@ h3 {
 }
 
 .midias li a {
-    box-shadow: 1vh #000000;
     background: rgb(255, 255, 255);
     background: linear-gradient(200deg, rgba(255, 255, 255, 1) 0%, rgba(133, 133, 133, 1) 86%);
     padding: 15px 20px;
@@ -71,7 +70,7 @@ h3 {
     text-decoration: none;
     color: #000000;
     font-weight: bold;
-
+    box-shadow: 6px 6px 23px 0px rgba(0,0,0,0.44);
 }
 
 .footer {
