@@ -41,6 +41,7 @@ h3 {
     background: rgb(255, 255, 255);
     background: linear-gradient(200deg, rgba(255, 255, 255, 1) 0%, rgba(133, 133, 133, 1) 86%);
     border-radius: 20px;
+    box-shadow: 6px 6px 23px 0px rgba(0,0,0,0.44);
 }
 
 .titulos {
@@ -76,4 +77,5 @@ h3 {
 .footer {
     background-color: #000000;
     text-align: center;
+    box-shadow: 0px -5px 8px -1px rgba(107,107,107,1);
 }
